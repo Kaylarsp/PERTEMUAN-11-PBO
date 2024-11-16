@@ -13,4 +13,8 @@ public class Kulkas extends AlatElektronik {
     public int getJumlahPintu() {
         return jumlahPintu;
     }
+
+    public String getInfo() {
+        return "SmartFridge [Harga: " + getHarga() + ", Warna: " + getWarna() + ", Merk: " + getMerk() + "]";
+    }
 }

@@ -13,4 +13,8 @@ public class Kipas extends AlatElektronik{
     public void setJenis() {
         this.jenis = jenis;
     }
+
+    public String getInfo() {
+        return "Kipas [Jenis: " + jenis + ", Harga: " + getHarga() + ", Warna: " + getWarna() + ", Merk: " + getMerk() + "]";
+    }
 }
