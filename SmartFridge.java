@@ -11,7 +11,7 @@ public class SmartFridge extends Kulkas implements Audible{
         volume += increment;
     }
 
-    @Override 
+    @Override
     public void turunkanVolume(int decrement) {
         volume += decrement;
     }
